@@ -1,14 +1,4 @@
-"""
-╔══════════════════════════════════════════════╗
-║              S N A K E   G A M E             ║
-║   Classic Snake — Python / Pygame Edition    ║
-╚══════════════════════════════════════════════╝
-Requirements: pip install pygame
-Run:          python snake.py
-Controls:     Arrow Keys / WASD  →  Move
-              P                  →  Pause
-              R (game-over)      →  Restart
-"""
+
 
 import pygame
 import sys
@@ -619,11 +609,6 @@ class SnakeGame:
         self._save_hi()
         pygame.quit()
         sys.exit()
-
-
-# ─────────────────────────────────────────────
-#  ENTRY POINT
-# ─────────────────────────────────────────────
 if __name__ == '__main__':
     game = SnakeGame()
     game.run()
